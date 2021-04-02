@@ -1,4 +1,4 @@
-FROM kalilinux/kali-rolling
+FROM ubuntu:21.04
 LABEL maintainer="realmadsci"
 ENV DEBIAN_FRONTEND=noninteractive 
 
