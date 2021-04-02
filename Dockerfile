@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM kalilinux/kali-rolling
 LABEL maintainer="realmadsci"
 ENV DEBIAN_FRONTEND=noninteractive 
 
