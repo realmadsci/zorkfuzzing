@@ -37,6 +37,7 @@ RUN git clone https://github.com/realmadsci/zork.git zork
 USER root
 RUN apt-get update && apt-get install -y \
     gdb \
+    file \
     wget \
     python3-minimal \
     xxd \
